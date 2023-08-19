@@ -1,0 +1,45 @@
+.flex-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.name {
+
+    flex: 1 0 130px;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: black;
+    border-style:  solid;
+    box-shadow: 3px 5px 10px ;
+    
+    
+}
+
+.email {
+    
+    flex: 1 0 130px;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: black;
+    border-style:  solid;
+    box-shadow: 3px 5px 10px ;
+    
+}
+
+button {
+
+    flex: 1 0 40px;
+    border-radius: 5px;
+    border-color:rgb(0, 0, 0);
+    border-style: groove;
+    box-shadow:  3px 5px 10px;
+    background-color: rgb(202, 44, 44);
+    cursor: pointer;
+    
+}
